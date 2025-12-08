@@ -416,3 +416,18 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+#CVI
+/CVI/cvibuild.TeStruve
+CVI/cvirte.dll
+CVI/fonts/ni7seg.ttf
+CVI/fonts/nisystem.ttf
+CVI/LV200000_BLASLAPACK.dll
+CVI/mesa.dll
+CVI/nianlys.dll
+
+# Rust
+/target
+/LV_Rust/target
+/Rust/target
+/build

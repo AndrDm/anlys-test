@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvAnlys", "AdvAnlys.vcxproj", "{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Debug|x64.ActiveCfg = Debug|x64
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Debug|x64.Build.0 = Debug|x64
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Debug|x86.Build.0 = Debug|Win32
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Release|x64.ActiveCfg = Release|x64
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Release|x64.Build.0 = Release|x64
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Release|x86.ActiveCfg = Release|Win32
+		{F4A2DE42-5997-4E9C-8BD7-FC0C98E5A7D3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9FCD4F2-DA23-4A75-9137-38F273CF9DB2}
+	EndGlobalSection
+EndGlobal
