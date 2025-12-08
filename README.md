@@ -58,7 +58,7 @@ fn main() {
 }
 ```
 
-Source:
+Source
 
 ```rust
 use std::env;
@@ -158,5 +158,24 @@ fn main() {
 	}
 	println!("LV_Struve({}, {}) = {}", x, v, res as f64);
 }
+```
+
+## TEST
+
+```
+C:\Users\Andrey\Desktop\anlys-test\build\CVI>TeStruve.exe 1 2
+Struve (1.000000, 2.000000) = 0.040465
+
+C:\Users\Andrey\Desktop\anlys-test\build\MSVC>AdvAnlys.exe 1 2
+Struve (1, 2) = 0.040464636144794626
+
+C:\Users\Andrey\Desktop\anlys-test\build\Rust>rustruve.exe 1 2
+Struve(1, 2) = 0.040464636144794626
+
+C:\Users\Andrey\Desktop\anlys-test\build\LV_MSVC>AdvAnlys.exe 1 2
+Struve (1, 2) = 0.040464636144794626
+
+C:\Users\Andrey\Desktop\anlys-test\build\LV_Rust>rustruve.exe 1 2
+LV_Struve(1, 2) = 0.040464636144794626
 ```
 
