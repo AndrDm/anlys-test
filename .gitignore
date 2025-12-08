@@ -431,3 +431,5 @@ CVI/nianlys.dll
 /LV_Rust/target
 /Rust/target
 /build
+
+*.exe
