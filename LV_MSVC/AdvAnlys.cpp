@@ -4,7 +4,7 @@
 
 // If the library exports C symbols (no C++ name mangling)
 extern "C" {
-    double LV_Struve(double x, double u, double *Struve);
+    void LV_Struve(double x, double u, double *Struve);
 }
 
 using namespace std;
